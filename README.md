@@ -2,7 +2,7 @@
 
 This is a fully serverless AI-driven email response system built on AWS. It automatically detects incoming customer emails, retrieves relevant data from a knowledge base when necessary, and generates accurate replies using LLMs. The system then autonomously sends responses to customers, streamlining customer support and improving efficiency.
 
-🛠 Architecture Overview (Diagram)
+🛠 Architecture Overview ((https://github.com/bananaw0lf/AI-Powered-Customer-Email-Responder/blob/main/diagram.png))
 1️⃣ AWS SES detects incoming customer emails and forwards them to SNS (or S3).
 2️⃣ SNS triggers Lambda 1, which calls the AWS Bedrock API to generate a response. The response is stored in DynamoDB.
 3️⃣ DynamoDB triggers Lambda 2, which sends the generated response email back to the customer.
