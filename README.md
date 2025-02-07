@@ -12,7 +12,7 @@ This is a fully serverless AI-driven email response system built on AWS. It auto
 
 ✅ Extensible & Scalable – All data is stored in DynamoDB, enabling additional features like analytics and managerial insights.
 
-🛠 Architecture Overview (https://github.com/bananaw0lf/AI-Powered-Customer-Email-Responder/blob/main/diagram.png)
+🛠 Architecture Overview ( Diagram: https://github.com/bananaw0lf/AI-Powered-Customer-Email-Responder/blob/main/diagram.png Demo Video: https://drive.google.com/file/d/18YA13Md5RyZ2eqqJgqlFUG9Heg6r6Bbo/view?usp=sharing)
 
 1️⃣ AWS SES detects incoming customer emails and forwards them to SNS (or S3).
 
