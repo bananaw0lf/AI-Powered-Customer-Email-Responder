@@ -22,7 +22,7 @@ This is a fully serverless AI-driven email response system built on AWS. It auto
 
 🔍 Retrieval-Augmented Generation (RAG) Features
 
-✨ Uses AWS Bedrock Agent and Knowledge Base connected to Redshift.
+✨ Uses AWS Bedrock Knowledge Base connected to Redshift.
 
 ✨ Retrieves customer payment details from the knowledge base when necessary. (in my case)
 
